@@ -1,0 +1,67 @@
+body {
+  background-image: url("./background.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Helvetica", sans-serif;
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+}
+
+input[type="number"] {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  font-family: "Helvetica", sans-serif;
+  opacity: 0;
+  background-color: black;
+  color: white;
+  animation: fadeIn 3s ease forwards;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+#submitButton {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Helvetica", sans-serif;
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
